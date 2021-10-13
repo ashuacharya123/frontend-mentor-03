@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-color: #19a2ae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content {
+  background-color: white;
+  width: 85%;
+  height: 50%;
+  border-radius: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+}
+
+.content__1 {
+  -webkit-box-flex: 38%;
+      -ms-flex: 38%;
+          flex: 38%;
+  background-image: url(./images/bg-pattern-card.svg);
+  height: 100%;
+  width: 100%;
+}
+
+.content__2 {
+  -webkit-box-flex: 42%;
+      -ms-flex: 42%;
+          flex: 42%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.content__2 img {
+  border-radius: 50%;
+  position: absolute;
+  top: -5rem;
+  left: 2rem;
+}
+
+.content__2 div {
+  height: 10.6rem;
+  width: 10.6rem;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -5.5rem;
+  left: 1.5rem;
+}
+
+.content__heading {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: #2d3248;
+}
+
+.content__heading span {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  padding-left: 1rem;
+  color: #6a6f81;
+}
+
+.content__location {
+  font-size: 1.3rem;
+  margin: -1.5rem 0 3rem 5rem;
+}
+
+.content__hr {
+  width: 100%;
+  opacity: 0.3;
+}
+
+.content__3 {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  margin-left: 5rem;
+}
+
+.content__followers {
+  display: -ms-grid;
+  display: grid;
+  margin: 2.5rem 5rem 2.5rem 0rem;
+}
+
+.content__followers span {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+}
+
+.content__likes {
+  display: -ms-grid;
+  display: grid;
+  margin: 2.5rem 5rem 2.5rem 0rem;
+}
+
+.content__likes span {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+}
+
+.content__photos {
+  display: -ms-grid;
+  display: grid;
+  margin: 2.5rem 5rem 2.5rem 0rem;
+}
+
+.content__photos span {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 280px) {
+  .content__2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .content__3 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .content {
+    width: 45%;
+    height: 45%;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .content {
+    width: 25%;
+    height: 45%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
